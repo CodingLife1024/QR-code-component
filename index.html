@@ -2,27 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | QR code component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+      *{ background-color: hsl(212, 45%, 89%);}
+
+      .whole {
+        background-color: hsl(0, 0%, 100%);
+        width: 15%;
+        text-align:center;
+        margin: auto;
+        padding: 15px;
+        border-radius: 5%;
+        margin-top: 150px;
+      }
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5%;
+      }
+
+      h1 {
+        background-color: hsl(0, 0%, 100%);
+        font-size: 15px;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 700;
+      }
+
+      h2{
+        background-color: hsl(0, 0%, 100%);
+        font-size: 12px;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 400;
+      }
   </style>
 </head>
+<div class="whole">
+  <img src="images\image-qr-code.png" width="200px" height="200px">
+  <br>
+  <h1>Improve your front-end skills by building projects.</h1>
+  <h2>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.</h2>
+</div>
 <body>
-
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>
