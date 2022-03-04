@@ -14,7 +14,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![Desktop version](images\Screenshot_Desktop.jpg "picture")
+![Desktop version](images\Screenshot_Desktop.jpg?raw=true "picture")
 
 This is the final uncropped solution.
 
